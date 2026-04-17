@@ -21,7 +21,7 @@ class FindPatter{
             .map(entry -> entry.getKey())
             .collect(Collectors.toList());
 
-        System.err.println(name);
+        System.out.println(name);
 
     }
 }
